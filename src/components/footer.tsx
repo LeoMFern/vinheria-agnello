@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import HeaderFooterRemover from "./header-footer-remover";
+import logo from "public/logo2.png";
 
 export default function Footer() {
   return (
@@ -10,7 +11,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
             <div>
               <Image
-                src="https://placehold.co/150x50"
+                src={logo}
                 alt="Agnello Logo"
                 width={150}
                 height={50}
